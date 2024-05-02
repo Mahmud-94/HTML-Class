@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h3>form 1: Registratio</h3>
+    <form action="">
+        Name: <br>
+        <input type="text" name="fullname" placeholder="Enter your name"> <br>
+        Adress: <br>
+        <textarea name="adress" cols="25" rows="5" placeholder="Enter your Adress"></textarea><br>
+        Gender: <br>
+        Male: <input type="radio" name="gender" value="m">
+        Female:<input type="radio" name="gender" value="f">
+        Others:<input type="radio" name="gender" value="o"> <br>
+        Dstrict: <br>
+        <Select name="district"> 
+            <option value="">Select one</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Barisal">Barisal</option>
+            <option value="Jhalakathi">Jhalakathi</option>
+            <option value="Pirojpur">Pirojpur</option>
+        </Select><br>
+
+        <input type="submit" name="submit" value="SEND DATA">
+    </form>
+<hr>
+<h3>Form 2: login</h3>
+<form action="">
+    <input type="email" placeholder="Enter email"><br>
+    <input type="password" placeholder="Enter password"><br>
+    <input type="submit" value="LOGIN">
+</form>
+<hr>
+<h3>Form 3: Signup</h3>
+<form action="">
+    Name: <input type="text" name="fullname" placeholder="Enter your name">  <br>
+    Gender: Male:<input type="radio" name="gender"> Female: <input type="radio" name="gender"><br>
+    DOB: <input type="date"> <br>
+    District: <br>
+    <select name="District">
+        <option value="">Select one</option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Barisal">Barisal</option>
+        <option value="Jhalakathi">Jhalakathi</option>
+        <option value="Pirojpur">Pirojpur</option>
+    </select><br>
+    <input type="password" placeholder="Enter password"> <br>
+    <input type="Reapeat password" placeholder="Enter Reapeat password"><br>
+    <input type="checkbox"> Agree with terms and conditions <br>
+    <input type="submit" value="Register"> <input type="reset">
+
+</form>
+
+<h2>form 4: Big form</h2>
+
+<form action="">
+   
+    <fieldset>
+        <legend>Login Info</legend>
+        <input type="email" placeholder="email"> <br>
+        <input type="password" name="password" placeholder="password"> <br>
+        <input type="password" name="repeat password" placeholder="repeat password"><br>
+
+    </fieldset>
+    
+    <fieldset>
+        <legend> Contact Info</legend>
+        <input type="text" name="name"><br>
+        <input type="number" name="phone"><br>
+        <textarea name="address" id="" cols="30" rows="10"></textarea>
+
+    </fieldset>
+    <input type="submit">
+</form><hr>
+<h3>Form 5</h3>
+<form action="">
+    <input type="text" name="fullname" placeholder="enter name"> <br>
+    <input type="number" name="age" placeholder="enter age"><br>
+    <input type="text" name="phone" placeholder="enter phone nu7mber"><br>
+    <textarea name="address" placeholder="enter address" id="" cols="30" rows="10"></textarea><br>
+    <label for="">place you want to visit</label><br>
+    <select name="places" multiple id="">
+        <option value="">select your choices</option>
+        <optgroup label="Dhaka">
+            <option value="">nandan park</option>
+            <option value="">safari park</option>
+            <option value="">Lalbag fort</option>
+            <option value="">Ahsan manzil</option>
+        </optgroup>
+        <optgroup label="Gazipur">
+            <option value="">safari park</option>
+            <option value="">resort</option>
+            <option value="">Tongi</option>
+        </optgroup>
+        <optgroup label="Cumilla">
+            <option value="">Shalbon bihar</option>
+            <option value="">Kotbari</option>
+            <option value="">Cumilla University</option>
+        </optgroup>
+
+    </select>
+</form>
+
+
+<img src="" alt="">
+<option value=""></option>
+
+
+    
+</body>
+</html>
